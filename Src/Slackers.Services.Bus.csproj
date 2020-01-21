@@ -6,6 +6,8 @@
     <Authors>Kurt Mabery</Authors>
     <Product>Kamabery.Slackers.Services.Bus</Product>
     <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/kamabery/Slackers.Services.Bus/tree/master</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
