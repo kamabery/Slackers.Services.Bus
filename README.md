@@ -5,7 +5,7 @@ Service Bus implementation that uses MassTransit and RabbitMQ
 2. ` dotnet new webapp `
 3. `dotnet add package Slackers.Services.Bus --version 1.0.0 `
 4. add a busOptions section in appsettings.  See [Sample Appsettings](https://github.com/kamabery/Slackers.Services.Bus/blob/master/Samples/ProjectManager/appsettings.json)
-5. Set Startup with section.
+5. Set Startup with section. See [Sample Startup](https://github.com/kamabery/Slackers.Services.Bus/blob/master/Samples/ProjectManager/Startup.cs) look at AddBus and AddHandler
 
 ## TODO
 1. Look at adding Kafka
