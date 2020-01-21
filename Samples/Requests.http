@@ -1,0 +1,27 @@
+POST http://localhost:4403/User  HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Bob",
+    "lastName": "Smith"
+}
+###
+http://localhost:4403/User
+###
+POST https://localhost:4400/Project  HTTP/1.1
+content-type: application/json
+
+{
+    "name": "First Project"
+}
+###
+Get https://localhost:4400/Project
+###
+POST https://localhost:4401/WorkTask HTTP/1.1
+content-type: application/json
+
+{
+ "userId": "47620d87-6bf2-4f77-8d97-47c2aa00f1a7",
+ "projectId": "7efc0508-4f80-4873-848c-d397846fbde1",
+ "name": "test even more stuff"
+}
